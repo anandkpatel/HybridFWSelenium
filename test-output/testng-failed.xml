@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Practice Site Testing]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.AutoExtentReporterNG"/>
+  </listeners>
+  <test name="Automation Pages TestCases(failed)">
+    <classes>
+      <class name="com.AutoP.TestCases.SignInPageTest">
+        <methods>
+          <include name="regfunctiontestforself"/>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.AutoP.TestCases.SignInPageTest -->
+    </classes>
+  </test> <!-- Automation Pages TestCases(failed) -->
+</suite> <!-- Failed suite [Automation Practice Site Testing] -->
